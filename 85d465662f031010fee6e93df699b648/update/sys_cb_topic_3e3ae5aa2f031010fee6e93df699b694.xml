@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.21",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "12d06499d198447199d8bfbb0b4c3f06": {
+          "id": "12d06499d198447199d8bfbb0b4c3f06",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "bfcd54b6e6de455c934bcb54fa67c7f8": {
+          "id": "bfcd54b6e6de455c934bcb54fa67c7f8",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "3c8674baf4ad40c4bbae3bf6f555fd1b": {
+          "id": "3c8674baf4ad40c4bbae3bf6f555fd1b",
+          "stepType": "TextOutput",
+          "name": "test",
+          "value": {
+            "value": "test",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "b8f2bbe075a64fee8c628e7de1ab6724",
+          "edgeType": "Edge",
+          "source": "12d06499d198447199d8bfbb0b4c3f06",
+          "target": "3c8674baf4ad40c4bbae3bf6f555fd1b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "dc023fcf185b45f58c0c7f6352b43612",
+          "edgeType": "Edge",
+          "source": "3c8674baf4ad40c4bbae3bf6f555fd1b",
+          "target": "bfcd54b6e6de455c934bcb54fa67c7f8",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>topic2v1</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>topic2v1</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-07 12:26:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>3e3ae5aa2f031010fee6e93df699b694</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>topic2v1</sys_name>
+        <sys_package display_value="Chat Bot Analytics" source="x_193011_chat_bot">85d465662f031010fee6e93df699b648</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Chat Bot Analytics">85d465662f031010fee6e93df699b648</sys_scope>
+        <sys_update_name>sys_cb_topic_3e3ae5aa2f031010fee6e93df699b694</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-07 12:27:17</sys_updated_on>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=3e3ae5aa2f031010fee6e93df699b694"/>
+</record_update>

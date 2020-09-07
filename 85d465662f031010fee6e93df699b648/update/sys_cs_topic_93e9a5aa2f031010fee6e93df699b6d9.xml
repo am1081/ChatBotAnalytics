@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability>true</applicability>
+        <cb_topic_id display_value="topic1v1">ced9612a2f031010fee6e93df699b6e4</cb_topic_id>
+        <channels/>
+        <definition>{"id":"ced9612a2f031010fee6e93df699b6e4","name":"topic1v1","system_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"topic1v1","applicability":"true","category":"","key_phrases":["topic1v1"],"variables":[{"name":"__segment_trigger_228ef15e88aa4d4c8148b0a726550ba4_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_87e9a5aad003101008b75716121ee3d8","unique":false,"default_value":"true","key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Branch_RootDecisionBranch_47e9a5aab7031010a80b4720cb2f1fd8","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_StartGoal_92f5c08c853e49ad9436d69968090fb5","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_OutputPrompt_5dca4a1c5d6e467d9072314eeeb8aa4e","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Decision_RootDecision_07e9a5aae303101024513da8a0298cd8","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_TerminateGoal_e57211f184ff460a885d8f3f2cd18679","unique":false,"key_phrases":[],"static_enum_list":[]}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_228ef15e88aa4d4c8148b0a726550ba4_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_87e9a5aad003101008b75716121ee3d8\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_47e9a5aab7031010a80b4720cb2f1fd8\");vaInputs.initialize(\"__silent_OutputPrompt_5dca4a1c5d6e467d9072314eeeb8aa4e\");vaInputs.initialize(\"__silent_Decision_RootDecision_07e9a5aae303101024513da8a0298cd8\");vaInputs.initialize(\"__silent_TerminateGoal_e57211f184ff460a885d8f3f2cd18679\");vaInputs.initialize(\"__silent_StartGoal_92f5c08c853e49ad9436d69968090fb5\");null;","fields":[{"name":"__silent_Decision_RootDecision_07e9a5aae303101024513da8a0298cd8","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_07e9a5aae303101024513da8a0298cd8\";vaInputs.__silent_Decision_RootDecision_07e9a5aae303101024513da8a0298cd8=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_07e9a5aae303101024513da8a0298cd8\";vaInputs.RootDecisionBranch_87e9a5aad003101008b75716121ee3d8=true;null;"},{"name":"__silent_Branch_RootDecisionBranch_47e9a5aab7031010a80b4720cb2f1fd8","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_07e9a5aae303101024513da8a0298cd8\" &amp;&amp; ((vaInputs.RootDecisionBranch_87e9a5aad003101008b75716121ee3d8.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_47e9a5aab7031010a80b4720cb2f1fd8___RootDecisionBranch_47e9a5aab7031010a80b4720cb2f1fd8\";vaInputs.__silent_Branch_RootDecisionBranch_47e9a5aab7031010a80b4720cb2f1fd8=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_47e9a5aab7031010a80b4720cb2f1fd8___RootDecisionBranch_47e9a5aab7031010a80b4720cb2f1fd8\";null;"},{"name":"__silent_StartGoal_92f5c08c853e49ad9436d69968090fb5","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_47e9a5aab7031010a80b4720cb2f1fd8___RootDecisionBranch_47e9a5aab7031010a80b4720cb2f1fd8\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___92f5c08c853e49ad9436d69968090fb5\";vaInputs.__silent_StartGoal_92f5c08c853e49ad9436d69968090fb5=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___92f5c08c853e49ad9436d69968090fb5\";null;"},{"name":"__silent_OutputPrompt_5dca4a1c5d6e467d9072314eeeb8aa4e","applicable":"vaVars.previous_graph_node==\"Start___92f5c08c853e49ad9436d69968090fb5\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"v1___5dca4a1c5d6e467d9072314eeeb8aa4e\";vaInputs.__silent_OutputPrompt_5dca4a1c5d6e467d9072314eeeb8aa4e=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"v1___5dca4a1c5d6e467d9072314eeeb8aa4e\";(function execute() {return gs.getMessageLang(\"test\", vaContext.getRequesterLang());})();"},{"name":"__silent_TerminateGoal_e57211f184ff460a885d8f3f2cd18679","applicable":"vaVars.previous_graph_node==\"v1___5dca4a1c5d6e467d9072314eeeb8aa4e\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___e57211f184ff460a885d8f3f2cd18679\";vaInputs.__silent_TerminateGoal_e57211f184ff460a885d8f3f2cd18679=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___e57211f184ff460a885d8f3f2cd18679\";vaVars.__segment_trigger_228ef15e88aa4d4c8148b0a726550ba4_done=true;null;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"library":false,"flexible_conversation_switching":false,"design_category":"","nlu_provider":"","nlu_model":"","nlu_intent":"","topic_type":"STANDARD","channels":[],"score":0.0,"visible":true,"sys_scope":"85d465662f031010fee6e93df699b648","sys_domain":"global","title":"topic1v1","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category/>
+        <fields/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>topic1v1</key_phrases>
+        <last_published_on>2020-09-07 12:25:35</last_published_on>
+        <library>false</library>
+        <library_usage>null</library_usage>
+        <metaphone>TPKF</metaphone>
+        <name>topic1v1</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <published>true</published>
+        <roles/>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-07 12:25:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>93e9a5aa2f031010fee6e93df699b6d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>topic1v1</sys_name>
+        <sys_package display_value="Chat Bot Analytics" source="x_193011_chat_bot">85d465662f031010fee6e93df699b648</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Chat Bot Analytics">85d465662f031010fee6e93df699b648</sys_scope>
+        <sys_update_name>sys_cs_topic_93e9a5aa2f031010fee6e93df699b6d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-07 12:25:35</sys_updated_on>
+        <title>topic1v1</title>
+        <type>STANDARD</type>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=93e9a5aa2f031010fee6e93df699b6d9"/>
+</record_update>
