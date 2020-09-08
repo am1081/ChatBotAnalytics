@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <key>topic1v2</key>
+        <language>en</language>
+        <message>topic1v2</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-08 14:03:27</sys_created_on>
+        <sys_id>e6e9433a2fcf1010fee6e93df699b6e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>topic1v2</sys_name>
+        <sys_package display_value="Chat Bot Analytics" source="x_193011_chat_bot">85d465662f031010fee6e93df699b648</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Chat Bot Analytics">85d465662f031010fee6e93df699b648</sys_scope>
+        <sys_update_name>sys_ui_message_e6e9433a2fcf1010fee6e93df699b6e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-08 14:03:27</sys_updated_on>
+    </sys_ui_message>
+</record_update>

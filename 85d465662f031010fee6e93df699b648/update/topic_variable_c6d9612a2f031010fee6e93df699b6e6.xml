@@ -39,7 +39,7 @@
         <limit/>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="topic1v1">ced9612a2f031010fee6e93df699b6e4</model>
+        <model display_value="topic1v2">ced9612a2f031010fee6e93df699b6e4</model>
         <model_id>ced9612a2f031010fee6e93df699b6e4</model_id>
         <model_table/>
         <name>var__m_topic_variable_ced9612a2f031010fee6e93df699b6e4</name>
